@@ -1,0 +1,745 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ArCa Payments Gateway\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-05 22:01+0400\n"
+"PO-Revision-Date: 2023-05-04 22:08+0400\n"
+"Last-Translator: \n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Loco-Version: 2.5.0; wp-5.6.2\n"
+
+#: arca-payment-gateway.php:434
+msgid "ArCa Payments Gateway form not found"
+msgstr "Форма ArCa Платежный шлюз не найдена"
+
+#: arca-payment-gateway.php:459 includes/apg_price_list_shortcodes.php:20
+msgid "Copied to clipboard!"
+msgstr "Скопировано в буфер!"
+
+#: arca-payment-gateway.php:460 includes/apg_price_list_shortcodes.php:21
+msgid "Are you sure you want to delete this item?"
+msgstr "Вы уверены, что хотите удалить этот элемент?"
+
+#: arca-payment-gateway.php:480 includes/apg_dashboard.php:53
+msgid "Dashboard"
+msgstr "Отчеты"
+
+#: arca-payment-gateway.php:481 includes/apg_orders.php:22
+msgid "Order log"
+msgstr "Журнал заказов"
+
+#: arca-payment-gateway.php:482 includes/apg_error_logs.php:16
+msgid "Error logs"
+msgstr "Журнал ошибок"
+
+#: arca-payment-gateway.php:483 includes/apg_price_list.php:134
+msgid "Price list"
+msgstr "Прайс-лист"
+
+#: arca-payment-gateway.php:484 includes/apg_checkout_form.php:57
+msgid "Checkout form"
+msgstr "Форма оплаты"
+
+#: arca-payment-gateway.php:485 includes/apg_currency.php:39
+#: includes/apg_orders.php:40
+msgid "Currency"
+msgstr "Валюты"
+
+#: arca-payment-gateway.php:486 includes/apg_config.php:168
+msgid "Configurations"
+msgstr "Конфигурации"
+
+#: buttons/button-default.php:7
+msgid "Buy now"
+msgstr "Купить сейчас"
+
+#: forms/form-default.php:29
+msgid "Price:"
+msgstr "Цена:"
+
+#: forms/form-default.php:49
+msgid "Pay"
+msgstr "Оплатить"
+
+#: forms/invoice.php:19 forms/invoice.php:47
+msgid "Your invoice"
+msgstr "Ваша квитанция "
+
+#: forms/invoice.php:21 forms/invoice.php:48
+msgid "Invoice number:"
+msgstr "Номер квитанции:"
+
+#: forms/invoice.php:22 forms/invoice.php:49
+msgid "Date of payment:"
+msgstr "Дата оплаты:"
+
+#: forms/invoice.php:23 forms/invoice.php:50
+msgid "Sum"
+msgstr "Сумма"
+
+#: forms/invoice.php:24 forms/invoice.php:51
+msgid "Payer:"
+msgstr "Плательщик:"
+
+#: forms/invoice.php:25
+msgid "email"
+msgstr "Эл. почта:"
+
+#: forms/invoice.php:26 forms/invoice.php:62 includes/apg_price_list.php:99
+#: includes/apg_price_list.php:139
+msgid "Product name"
+msgstr "Наименование товара"
+
+#: forms/invoice.php:27 forms/invoice.php:63
+msgid "Description:"
+msgstr "Описание:"
+
+#: forms/invoice.php:30 forms/invoice.php:65
+msgid "Thanks for your payment, our specialist will contact you."
+msgstr "Спасибо за оплату, с вами свяжется наш специалист."
+
+#: forms/invoice.php:44
+msgid "Invoice"
+msgstr "Квитанция"
+
+#: forms/message.php:6
+msgid "An error has occurred"
+msgstr "Произошла ошибка."
+
+#: forms/message.php:9
+msgid "Unfortunately your payment has failed"
+msgstr "К сожалению, ваш платеж не прошел"
+
+#: forms/message.php:15
+msgid "Payment has failed"
+msgstr "Платеж не прошел"
+
+#: includes/apg_checkout_form.php:33 includes/apg_checkout_form.php:41
+#: includes/apg_config.php:127 includes/apg_config.php:151
+#: includes/apg_currency.php:26 includes/apg_error_logs.php:11
+#: includes/apg_orders.php:11 includes/apg_price_list.php:11
+#: includes/apg_price_list.php:51 includes/apg_price_list.php:74
+msgid "Done!"
+msgstr "Готово!"
+
+#: includes/apg_checkout_form.php:69
+msgid "Input name"
+msgstr "Поля"
+
+#: includes/apg_checkout_form.php:70
+msgid "Type"
+msgstr "Тип"
+
+#: includes/apg_checkout_form.php:71
+msgid "Enabled"
+msgstr "Включено"
+
+#: includes/apg_checkout_form.php:72
+msgid "Required"
+msgstr "Обязательный"
+
+#: includes/apg_checkout_form.php:73 includes/apg_error_logs.php:30
+#: includes/apg_orders.php:47 includes/apg_price_list.php:110
+#: includes/apg_price_list.php:150
+msgid "Actions"
+msgstr "Действия"
+
+#: includes/apg_checkout_form.php:85 includes/apg_checkout_form.php:128
+#: includes/apg_config.php:191 includes/apg_config.php:261
+#: includes/apg_currency.php:72 includes/apg_price_list.php:172
+msgid "Save"
+msgstr "Сохранить"
+
+#: includes/apg_checkout_form.php:94
+msgid "Checkuot page"
+msgstr "Форма оформления заказа"
+
+#: includes/apg_checkout_form.php:99
+msgid "Select to change"
+msgstr "Выберите, чтобы изменить"
+
+#: includes/apg_checkout_form.php:133 includes/apg_price_list.php:180
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: includes/apg_checkout_form.php:135 includes/apg_price_list_shortcodes.php:65
+#: includes/apg_price_list_shortcodes.php:75
+msgid "Copy"
+msgstr "Копировать"
+
+#: includes/apg_config.php:16
+msgid "Incorrect order registration URL"
+msgstr "Неправильный URL регистрации заказа"
+
+#: includes/apg_config.php:23
+msgid "Incorrect ArCa admin URL"
+msgstr "Неправильный URL администратора ArCa"
+
+#: includes/apg_config.php:30
+msgid "Incorrect API username"
+msgstr "Неправильное имя пользователя API"
+
+#: includes/apg_config.php:37
+msgid "Incorrect API password"
+msgstr "Неправильный пароль API"
+
+#: includes/apg_config.php:44
+msgid "incorrect default_language"
+msgstr "Неверный “Язык по умолчанию”"
+
+#: includes/apg_config.php:51
+msgid "incorrect default_currency"
+msgstr "Неверный “Валюта по умолчанию”"
+
+#: includes/apg_config.php:72
+msgid "Incorrect extended order status URL"
+msgstr "Неправильный URL расширенного статуса заказа"
+
+#: includes/apg_config.php:79 includes/apg_config.php:137
+msgid "incorrect rest_serverID"
+msgstr "Неверный “URL регистрации заказа”"
+
+#: includes/apg_config.php:86
+msgid "Incorrect email address"
+msgstr "Неверный адрес эл. почты"
+
+#: includes/apg_config.php:178
+msgid "Working mode"
+msgstr "Режим работы"
+
+#: includes/apg_config.php:196
+msgid "Server configs"
+msgstr "Конфигурации сервера"
+
+#: includes/apg_config.php:204
+msgid "API username:"
+msgstr "API Логин։"
+
+#: includes/apg_config.php:207
+msgid "API password:"
+msgstr "API Пароль։"
+
+#: includes/apg_config.php:212
+msgid "Default language:"
+msgstr "Язык по умолчанию:"
+
+#: includes/apg_config.php:224
+msgid "Default currency:"
+msgstr "Валюта по умолчанию:"
+
+#: includes/apg_config.php:236
+msgid "Orders number prefix:"
+msgstr "Префикс номера заказов:"
+
+#: includes/apg_config.php:239
+msgid "Order number starting from"
+msgstr "Номер заказа начиная с"
+
+#: includes/apg_config.php:241
+msgid "Orders will increase starting from the specified number, the type must be integer (for example, 100)."
+msgstr "Заказы будут увеличиваться, начиная с указанного числа, тип должен быть целым (например, 100)."
+
+#: includes/apg_config.php:243
+msgid "API connection settings"
+msgstr "Настройки подключения API"
+
+#: includes/apg_config.php:245
+msgid "ArCa admin URL:"
+msgstr "URL-адрес Панели управления ArCa:"
+
+#: includes/apg_config.php:248
+msgid "Order registration URL:"
+msgstr "URL регистрации заказа:"
+
+#: includes/apg_config.php:251
+msgid "Getting the extended order status URL:"
+msgstr "URL расширенного статуса заказа:"
+
+#: includes/apg_config.php:255
+msgid "Email from:"
+msgstr "Эл. почта от:"
+
+#: includes/apg_config.php:257
+msgid "Specify the email address from which the payer will receive the invoice, admin email is default."
+msgstr "Укажите адрес электронной почты, с которого плательщик получит счет, адрес электронной почты администратора по умолчанию."
+
+#: includes/apg_currency.php:51
+msgid "Currency code"
+msgstr "Код валюты"
+
+#: includes/apg_currency.php:52
+msgid "Currency abbr"
+msgstr "Валюта сокр."
+
+#: includes/apg_currency.php:53
+msgid "Currency name"
+msgstr "Название валюты"
+
+#: includes/apg_currency.php:54
+msgid "Active"
+msgstr "Активные"
+
+#: includes/apg_currency.php:74
+msgid "Default"
+msgstr "По умолчанию"
+
+#: includes/apg_dashboard.php:77
+msgid "Today:"
+msgstr "Сегодня:"
+
+#: includes/apg_dashboard.php:77 includes/apg_dashboard.php:79
+#: includes/apg_dashboard.php:81 includes/apg_dashboard.php:83
+#: includes/apg_dashboard.php:85
+msgid "Orders"
+msgstr "Заказы"
+
+#: includes/apg_dashboard.php:77 includes/apg_dashboard.php:79
+#: includes/apg_dashboard.php:81 includes/apg_dashboard.php:83
+#: includes/apg_dashboard.php:85
+msgid "Count"
+msgstr "Количество"
+
+#: includes/apg_dashboard.php:79
+msgid "This week:"
+msgstr "На этой неделе:"
+
+#: includes/apg_dashboard.php:81
+msgid "Last week:"
+msgstr "На прошлой неделе:"
+
+#: includes/apg_dashboard.php:83
+msgid "Last month:"
+msgstr "Прошлый месяц:"
+
+#: includes/apg_dashboard.php:85
+msgid "All time:"
+msgstr "Все время:"
+
+#: includes/apg_error_logs.php:27 includes/apg_price_list.php:138
+msgid "ID"
+msgstr "ID"
+
+#: includes/apg_error_logs.php:28
+msgid "Date"
+msgstr "Дата"
+
+#: includes/apg_error_logs.php:29
+msgid "Error"
+msgstr "Ошибка"
+
+#: includes/apg_error_logs.php:43 includes/apg_orders.php:77
+#: includes/apg_price_list.php:181
+msgid "Delete"
+msgstr "Удалить"
+
+#: includes/apg_HowToUse.php:19
+msgid "How to use"
+msgstr "Как пользоваться"
+
+#: includes/apg_HowToUse.php:45 includes/apg_price_list.php:106
+#: includes/apg_price_list.php:146
+msgid "Product price"
+msgstr "Цена продукта"
+
+#: includes/apg_HowToUse.php:48
+msgid "Create a product by adding \"Product Name\" and \"Price\" and click the \"Add\" button."
+msgstr "Создайте продукт, добавив «Название продукта», «Цену», и нажмите кнопку «Добавить»."
+
+#: includes/apg_HowToUse.php:52
+msgid "Product will appear in \"Price list\"."
+msgstr "Товар появится в «Прайс-листе»."
+
+#: includes/apg_HowToUse.php:56
+msgid "Click the shortcode button and in the pop-up window that opens, select the payment language (the language of the bank page) and select the payment currency."
+msgstr "Нажмите кнопку шорткода и в открывшемся всплывающем окне выберите язык платежа (язык страницы банка) и выберите валюту платежа."
+
+#: includes/apg_HowToUse.php:60
+msgid "Copy shortcode."
+msgstr "Шорткод"
+
+#: includes/apg_HowToUse.php:64
+msgid "The payment form will appear on the page / post where you placed the shortcode."
+msgstr "Форма оплаты появится на странице / посте, где вы разместили шорткод."
+
+#: includes/apg_HowToUse.php:68
+msgid "View the page and your payment form will be there."
+msgstr "Просмотрите страницу, и ваша форма оплаты будет там."
+
+#: includes/apg_HowToUse.php:75
+msgid "Set Currencies"
+msgstr "Установить валюту"
+
+#: includes/apg_HowToUse.php:78
+msgid "Set or unset the currencies which will be shown in \"Price list\" page and shortcode popup."
+msgstr "Установите или отключите валюты, которые будут отображаться на странице «Прайс-лист» и во всплывающем окне с Шорткодом."
+
+#: includes/apg_HowToUse.php:82
+msgid "Available currencies in \"Price list\" page"
+msgstr "Доступные валюты на странице «Прайс-лист»"
+
+#: includes/apg_HowToUse.php:86
+msgid "Available currencies in shortcode popup"
+msgstr "Доступные валюты во всплывающем окне шорткода"
+
+#: includes/apg_HowToUse.php:93
+msgid "Checkout Form"
+msgstr "Форма оформления заказа"
+
+#: includes/apg_HowToUse.php:96
+msgid "Set or unset checkout form fields which will be visible for payment."
+msgstr "Установите или отключите поля формы оформления заказа, которые будут видны для оплаты."
+
+#: includes/apg_orders.php:18
+msgid "Close"
+msgstr "Закрыть"
+
+#: includes/apg_orders.php:24
+msgid "ArCa admin panel"
+msgstr "Панель управления ArCa"
+
+#: includes/apg_orders.php:36
+msgid "Order number"
+msgstr "Номер заказа"
+
+#: includes/apg_orders.php:37
+msgid "Order id"
+msgstr "ID заказа"
+
+#: includes/apg_orders.php:38
+msgid "Product id"
+msgstr "ID продукта"
+
+#: includes/apg_orders.php:39
+msgid "Amount"
+msgstr "Сумма"
+
+#: includes/apg_orders.php:41
+msgid "Error code"
+msgstr "Код ошибки"
+
+#: includes/apg_orders.php:42
+msgid "Payment state"
+msgstr "Состояние платежа"
+
+#: includes/apg_orders.php:43
+msgid "Order date"
+msgstr "Дата заказа"
+
+#: includes/apg_orders.php:44
+msgid "Email sent"
+msgstr "Письмо отправлено"
+
+#: includes/apg_orders.php:45
+msgid "Order status"
+msgstr "Статус заказа"
+
+#: includes/apg_orders.php:46
+msgid "Order details"
+msgstr "Детали заказа"
+
+#: includes/apg_price_list.php:20
+msgid "incorrect productName"
+msgstr "Неверный “Наименование товара”"
+
+#: includes/apg_price_list.php:34
+msgid "incorrect productPrice"
+msgstr "Неверный “Цена продукта”"
+
+#: includes/apg_price_list.php:53
+msgid "sql Error:"
+msgstr "sql Ошибка:"
+
+#: includes/apg_price_list.php:94
+msgid "Add new product"
+msgstr "Добавить новый продукт"
+
+#: includes/apg_price_list.php:100 includes/apg_price_list.php:140
+msgid "Product description"
+msgstr "Описание товара"
+
+#: includes/apg_price_list.php:126
+msgid "Add"
+msgstr "Добавить"
+
+#: includes/apg_price_list_shortcodes.php:28
+msgid "Generate your shortcode"
+msgstr "Создайте свой шорткод"
+
+#: includes/apg_price_list_shortcodes.php:32
+msgid "Choose payment language:"
+msgstr "Выберите язык шорткода:"
+
+#: includes/apg_price_list_shortcodes.php:45
+msgid "Choose payment currency:"
+msgstr "Выберите валюту шорткода:"
+
+#: includes/apg_price_list_shortcodes.php:63
+msgid "Checkout form shortcode"
+msgstr "Шорткод формы оформления заказа"
+
+#: includes/apg_price_list_shortcodes.php:73
+msgid "Buy it button shortcode"
+msgstr "Шорткод кнопки \"Купить\""
+
+msgid "Full name:"
+msgstr "Полное имя:"
+
+msgid "Phone number:"
+msgstr "Телефонный номер:"
+
+msgid "Email:"
+msgstr "Эл. почта:"
+
+msgid "Country:"
+msgstr "Страна:"
+
+msgid "City:"
+msgstr "Город։"
+
+msgid "Address:"
+msgstr "Адрес։"
+
+msgid "Zip Code:"
+msgstr "Почтовый Индекс։"
+
+msgid "Comments:"
+msgstr "Комментарии։"
+
+msgid "Upgrade to PRO"
+msgstr "Обновить до PRO-Версии"
+
+msgid "Switch"
+msgstr "Переключить"
+
+msgid "Bank:"
+msgstr "Банк:"
+
+msgid "Client ID:"
+msgstr "ID клиента:"
+
+msgid "Incorrect ClientID"
+msgstr "Неверный “ID клиента”"
+
+msgid "Start of the OrderID range in the test mode:"
+msgstr "Начало диапазона OrderID в тестовой среде։"
+
+msgid "End of the OrderID range in the test mode:"
+msgstr "Конец диапазона OrderID в тестовой среде։"
+
+msgid "Incorrect description"
+msgstr "Неверный “Описание товара”"
+
+msgid "Online payment"
+msgstr "Онлайн платеж"
+
+msgid "WC order"
+msgstr "WC заказа"
+
+msgid "Support"
+msgstr "Поддержка"
+
+msgid "Create a support ticket"
+msgstr "Создать заявку в службу поддержки"
+
+msgid "Call: +374 10 561106"
+msgstr "Звоните: +374 10 561106"
+
+msgid "Test min OrderId:"
+msgstr "Начало диапазона Order ID в тестовой среде։"
+
+msgid "Test max OrderId:"
+msgstr "Конец диапазона Order ID в тестовой среде։"
+
+msgid "Buy"
+msgstr "Купить"
+
+msgid "incorrect start digit orders"
+msgstr "Неверный “Начальная цифра заказа”"
+
+msgid "Set"
+msgstr "Устанавливать"
+
+msgid "Payment form"
+msgstr "Форма оплаты"
+
+msgid "License:"
+msgstr "Лицензия"
+
+msgid "Something went wrong"
+msgstr "Что-то пошло не так"
+
+msgid "Activation key"
+msgstr "Ключ активации"
+
+msgid "Activate"
+msgstr "Активировать"
+
+msgid "License key is active"
+msgstr "Лицензионный ключ активен"
+
+msgid "Activation Key is required"
+msgstr "Требуется ключ активации"
+
+msgid "Something went wrong, please try again."
+msgstr "Что-то пошло не так. Пожалуйста, попробуйте еще раз."
+
+msgid "vPOS Account"
+msgstr "vPOS Учетная запись"
+
+msgid "API Test Port:"
+msgstr "Тестовый порт API:"
+
+msgid "Incorrect API Test Port:"
+msgstr "Неправильный тестовый порт API:"
+
+msgid "ArCa Payment Gateway Deactivation"
+msgstr "Неверный тестовый порт API:"
+
+msgid "If you have a moment, please let us know why you are deactivating this plugin. All submissions are anonymous and we only use this feedback to improve this plugin."
+msgstr ""
+
+msgid "I'm only deactivating temporarily"
+msgstr ""
+
+msgid "I no longer need the plugin"
+msgstr ""
+
+msgid "I only needed the plugin for a short period"
+msgstr ""
+
+msgid "The plugin broke my site"
+msgstr ""
+
+msgid "We're sorry to hear that, check our support. Can you describe the issue?"
+msgstr ""
+
+msgid "The plugin suddenly stopped working"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Please describe why you're deactivating"
+msgstr ""
+
+msgid "Please select at least one option."
+msgstr ""
+
+msgid "Skip and Deactivate"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Submit and Deactivate"
+msgstr ""
+
+msgid "* I have read and agree to the website terms and conditions"
+msgstr "* Я прочитал и согласен с условиями сайта"
+
+msgid "Checkout"
+msgstr "Оформление заказа"
+
+msgid "Credit Card"
+msgstr "Кредитная карта"
+
+msgid "Idram"
+msgstr "Idram"
+
+msgid "Gateway status"
+msgstr "Состояние шлюза"
+
+msgid "Plugin version:"
+msgstr "Версия плагина:"
+
+msgid "Active currencies:"
+msgstr "Активные валюты:"
+
+msgid "Working mode:"
+msgstr "Режим работы:"
+
+msgid "Idram status:"
+msgstr "Статус Idram:"
+
+msgid "Idram test mode:"
+msgstr "Idram Тестовый режим:"
+
+msgid "Roket Line:"
+msgstr ""
+
+msgid "Finance report"
+msgstr "Финансовый отчет"
+
+msgid "Idram Settings"
+msgstr "Idram Настройки"
+
+msgid "Idram Account"
+msgstr "Учетная запись Idram"
+
+msgid "Enable Idram"
+msgstr "Включить Idram"
+
+msgid "Idram ID:"
+msgstr "Idram Логин:"
+
+msgid "Idram Key:"
+msgstr "Idram Пароль:"
+
+msgid "Idram Test Account"
+msgstr "Тестовая учетная запись Idram"
+
+msgid "Enable test mode"
+msgstr "Включить тестовый режим"
+
+msgid "Idram Test ID:"
+msgstr "Idram Тестовый логин:"
+
+msgid "Idram Test Key:"
+msgstr "Idram Тестовый пароль:"
+
+msgid "Idram Payment System provide it"
+msgstr "предоставляет платежная система Idram"
+
+msgid "Enable Roket Line"
+msgstr "Включить Roket Line"
+
+msgid "Idram Callback URLs"
+msgstr "URL-адреса обратного вызова Idram"
+
+msgid "vPOS Settings"
+msgstr "vPOS Настройки"
+
+msgid "How To Use"
+msgstr "Как пользоваться"
+
+msgid "Delete All"
+msgstr "Удалить все"
+
+msgid "Privacy Policy Page"
+msgstr "Страница политики конфиденциальности"
+
+msgid "Your order"
+msgstr "Ваш заказ"
+
+msgid "Billing details"
+msgstr "Платежные реквизиты"
+
+msgid "days left:"
+msgstr "осталось дней:"
+
+msgid "Real Orders"
+msgstr "Реальные заказы"
+
+msgid "Test Orders"
+msgstr "Тестовые заказы"
+
+msgid "WooCommerce order status:"
+msgstr "Статус заказа WooCommerce:"

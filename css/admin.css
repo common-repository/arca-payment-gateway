@@ -1,0 +1,416 @@
+.apg { position:relative; background: #fff; box-sizing: border-box; padding: 20px; min-height: 500px; border-radius: 5px; overflow-x: auto; }
+
+.apg .apg-table-noborder, .apg .apg-table-noborder td { border:none; background:none; padding:0 }
+
+.apg table { border-collapse: collapse; width: auto; }
+.apg table td,
+.apg table th { border: 1px solid #ddd; padding: 7px; }
+.apg table tr:nth-child(even){ background-color: #f9f9f9; }
+.apg table th { padding-top: 12px; padding-bottom: 12px; }
+
+.apg table .button,
+.apg table .button-primary,
+.apg table .button-secondary { 
+	min-height: auto !important;
+	line-height: 24px !important;
+}
+
+.apg table .linkDelate {  }
+.apg table .linkDelate:hover { color: #f44336 }
+.apg table .actions { text-align: center; padding: 0 10px }
+.apg table .center { text-align: center !important;  }
+
+.apg .description { margin-bottom: 15px; margin-top: -10px }
+
+.apg a.upgrade-to-pro { display: inline-block; line-height: 30px; font-size:14px; font-weight: 600; background: #f44336; color: #fff; margin-left: 20px; padding: 0 10px; border-radius: 4px; text-decoration: none; }
+
+/* shortcodes
+*/
+.apg .shortcode { margin: 5px 0 10px 0; font-family: Consolas,"courier new"; font-size: 16px; font-weight: normal; color: #000; }
+.apg .copyToClipboard { cursor: pointer; }
+
+
+/* orders
+*/
+#apg-orders table { width: 100%; }
+
+#apg-jsonView { position: absolute; z-index: 9999999; top: 75px; left: 21px; display: none; background: #fff; width: 70%; height:500px; border: 1px solid #999; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3); overflow: hidden; resize: vertical; }
+#apg-jsonView textarea { display: block; width: 100%; height:100%; border:none; resize: none; padding: 30px; font-family: Consolas,"courier new"; font-size: 15px; font-weight: normal; color: #000; }
+.apg .jsonView { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 200px; cursor: pointer; }
+
+.apg-popup .popupClose { position: absolute; top: 30px; right: 30px; color: #333; z-index: 2; cursor: pointer; }
+.apg-popup .popupClose:hover { color:#f44336; }
+
+#apg-orders .dashicons { color: #999 }
+
+.apg .paymentStateDECLINED { color: #f44336 }
+.apg .paymentState {  }
+
+/* config
+*/
+#apg-config input[type=text],
+#apg-config input[type=password],
+#apg-config select {
+	display: block; margin:3px 0 15px 0; width: 500px; max-width: 500px; color: #666; font-family: arial; font-size: 13px; 
+}
+.apg legend { color:#555; font-weight: 600; }
+
+.apg .bank-logo { height: 30px; margin-bottom: 20px; }
+.apg .mode-switcher .actions { margin-left: 10px; }
+
+.api-password-container { position: relative; display:inline-block; }
+.api-password-container .show-hide:after { content: "\f530"; font-family: dashicons; font-size: 19px; font-weight: normal; position: absolute; top: 0; right: 7px; line-height: 36px; color: #adadad; cursor: pointer; z-index: 99999; display: block; }
+.api-password-container:active .show-hide:after { content: "\f177"; color: inherit; }
+
+.apg-vpos-login-pass-caption { color: #0f834d; font-weight: 600; font-size: 15px; margin-bottom: 6px;  }
+.apg-saperator { border-bottom: 1px solid gray; width:500px; height: 1px; margin: 10px 0; }
+
+/* price list
+*/
+.apg table .price { width: 90px; }
+.apg table input[name=productName] { width: 400px; }
+
+
+/* shortcode popup
+*/
+.apg #productName { font-size: 17px; margin-bottom: 25px }
+#apg-shortcode { background:none; padding: 20; min-height:auto; border-radius: 0  }
+#apg-shortcode select {
+	font-size: 14px;
+	line-height: 2;
+	color: #32373c;
+	border-color: #7e8993;
+	box-shadow: none;
+	border-radius: 3px;
+	padding: 0 24px 0 8px;
+	min-height: 30px;
+	max-width: 25rem;
+	-webkit-appearance: none;
+	background: #fff url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E) no-repeat right 5px top 55%;
+	background-size: 16px 16px;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+
+/* dashboard
+*/
+#apg-dashboard table { margin-top: 15px; }
+#apg-dashboard table th,
+#apg-dashboard table td {
+	text-align: left; padding-right: 20px; padding-left: 20px; 
+}
+#days_left {  }
+
+/* currency
+*/
+#apg-currency table { margin-top: 15px; }
+#apg-currency table th,
+#apg-currency table td {
+	text-align: left; padding-right: 20px; padding-left: 20px; 
+}
+
+
+/* checkout form
+*/
+#apg-checkoutForm table { margin-top: 15px; }
+#apg-checkoutForm table th,
+#apg-checkoutForm table td { text-align: left; padding-right: 20px; padding-left: 20px; }
+#apg-checkoutForm select[name=checkoutFormPage] { padding-right: 40px; min-width:300px; }
+#apg-checkoutForm select[name=privacyPolicyPage] { padding-right: 40px; min-width:300px; }
+#apg-checkoutForm input[name=mailFrom] { min-width:300px }
+#apg-checkoutForm #mailFrom { margin-top:10px }
+
+/* error logs
+*/
+#apg-errorLogs table { margin-top: 15px; }
+#apg-errorLogs table th,
+#apg-errorLogs table td { text-align: left; padding-right: 20px; padding-left: 20px; }
+
+
+/* widgets
+*/
+.apg-dashboard-widgets {
+
+}
+
+.apg-dashboard-widgets table { border-collapse: collapse; width: 100%; }
+.apg-dashboard-widgets table td,
+.apg-dashboard-widgets table th { border-bottom: 1px solid #ddd; text-align: left; padding:7px 20px;  }
+.apg-dashboard-widgets table tr:nth-child(even){ background-color: #f9f9f9; }
+
+
+/* deactivation popup
+*/
+#apg-deactivate-popup {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+}
+
+#apg-deactivate-form-container {
+	width: 650px;
+	height: auto;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	position: relative;
+	transform: translate(-50%, 0);
+	left: 50%;
+	top: 60px;
+}
+
+.apg-deactivate-form-header {
+	line-height: 30px;
+	padding:15px 24px;
+	background-color: #f0f1f1;
+	border-bottom: 1px solid #cdcdcd;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.apg-deactivate-form-body {
+	padding: 10px 24px 24px 24px;
+}
+
+.apg-deactivate-form-body label {
+	display: block;
+	font-size: 13px;
+	margin-top: 8px;
+	color: #888;
+	font-style: italic;
+}
+
+.apg-deactivate-form-body textarea {
+	width: 100%;
+}
+
+.apg-deactivate-form-body .apg-reason-other-field {
+	display: none;
+}
+
+.apg-deactivate-form-footer {
+	padding:15px 24px;
+	background-color: #fbfbfb;
+	border-top: 1px solid #d7d7d7;
+	height: 60px;
+	box-sizing: border-box;
+}
+
+.apg-deactivate-form-footer input[type="button"],
+.apg-deactivate-form-footer input[type="submit"]
+{
+	float: right;
+	margin-left: 15px !important;
+}
+
+#skip-and-deactivate {
+	float: left;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+#apg-deactivation-error-msg {
+	display: none;
+	margin: 25px 0 0;
+	padding: 16px;
+	border: 1px solid #c3c4c7;
+	border-left: 4px solid #d63638;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* --------Help Styles ---------------*/
+.apg-hidden {
+	display: none;
+}
+
+.button.apg-how-to-use-button {
+	position: absolute;
+	right: 20px;
+	top:20px;
+	padding: 10px 30px;
+	font-size: 15px;
+}
+
+.apg-layout {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.7);
+	z-index: 99999;
+}
+.apg-how-to-use-popup {
+	position: absolute;
+	background-color: #fff;
+	border-radius: 5px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80%;
+	height: 80%;
+	max-width: 1000px;
+	max-height: 800px;
+	overflow: hidden;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+.apg-how-to-use-content-title {
+	position: relative;
+	padding: 0px 50px 20px 20px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 40px;
+	background-color: #f9f7f7;
+	line-height: 40px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.apg-how-to-use-content-title h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.apg-how-to-use-content {
+	padding: 20px;
+	box-sizing: border-box;
+	overflow-y: auto;
+	height: calc(100% - 40px);
+}
+
+.apg-how-to-use-content-section {
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.apg-how-to-use-content p {
+	font-weight: 600;
+	font-size: 20px;
+	list-style: disc inside none;
+	display:list-item;
+}
+
+.apg-how-to-use-content img {
+	max-width: 100%;
+	height: auto;
+}
+
+.apg-close {
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+#apg-pagination { margin-top: 20px; }
+#apg-pagination a { display: inline-block; padding: 5px; margin: 0 2px; background: #eee; text-decoration: none; color: black; min-width: 24px; text-align: center; }
+#apg-pagination .current { background: #2271b1; color: #fff;  }
+
+/* apg rest controller */
+
+.apg_activation_container input[type=text] {
+    margin: 0 5px 15px 0;
+    width: 500px;
+    max-width: 500px;
+    color: #666;
+    font-family: arial;
+    font-size: 13px;
+	
+}
+
+.apg_activation_container {
+	margin: 0 0 20px 0 !important;
+}
+
+.apg_activation_container form {
+	margin: 3px 0 0 0 !important;
+	display:flex;
+	height:30px;
+	width:500px;
+}
+
+.apg_activation_container input {
+	margin: 0 5px 0 0;
+}
+
+.apg_activation_msg {
+	color:#f44336;
+	margin: 5px 0 0 0;
+}
+
+.apg_hidden {
+	display:none!important;
+}
+
+#apg_activation_key {
+	width: 400px;
+}
+
+.apg_active_mesage {
+	color: #0f834d;
+	margin: 5px 0 3px 5px;
+	font-weight: 600;
+}
+
+.apg_error_mesage {
+	color: #f44336;
+	margin: 5px 0 0 5px;
+}
+
+.apg_loader {
+	width: 16px;
+	height: 16px;
+	margin-left: 10px;
+	vertical-align: text-bottom;
+}
+
+#HowToUse > ol { display:none }
+#HowToUse > h2 {
+	color:#0073aa;
+	text-decoration:underline;
+	cursor:pointer; font-size: 1rem; 
+	font-weight: 600;
+	font-family: Open Sans,sans-serif;
+	line-height: 1;
+	margin: 2rem 0 1rem;
+}
+
+
+
+
+
+
+
+
+
+

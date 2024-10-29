@@ -1,0 +1,745 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ArCa Payments Gateway\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-05 22:01+0400\n"
+"PO-Revision-Date: 2023-05-04 22:07+0400\n"
+"Last-Translator: \n"
+"Language-Team: Հայերեն\n"
+"Language: hy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Loco-Version: 2.5.0; wp-5.6.2\n"
+
+#: arca-payment-gateway.php:434
+msgid "ArCa Payments Gateway form not found"
+msgstr "ArCa վճարային խողովակի  ձևը չի գտնվել"
+
+#: arca-payment-gateway.php:459 includes/apg_price_list_shortcodes.php:20
+msgid "Copied to clipboard!"
+msgstr "Պատճենված է բուֆերում"
+
+#: arca-payment-gateway.php:460 includes/apg_price_list_shortcodes.php:21
+msgid "Are you sure you want to delete this item?"
+msgstr "Վստա՞հ եք, որ ցանկանում եք ջնջել այս տարրը:"
+
+#: arca-payment-gateway.php:480 includes/apg_dashboard.php:53
+msgid "Dashboard"
+msgstr "Հաշվետվություն"
+
+#: arca-payment-gateway.php:481 includes/apg_orders.php:22
+msgid "Order log"
+msgstr "Պատվերների մատյան"
+
+#: arca-payment-gateway.php:482 includes/apg_error_logs.php:16
+msgid "Error logs"
+msgstr "Սխալների մատյան"
+
+#: arca-payment-gateway.php:483 includes/apg_price_list.php:134
+msgid "Price list"
+msgstr "Գնացուցակ"
+
+#: arca-payment-gateway.php:484 includes/apg_checkout_form.php:57
+msgid "Checkout form"
+msgstr "Պատվերի ձև"
+
+#: arca-payment-gateway.php:485 includes/apg_currency.php:39
+#: includes/apg_orders.php:40
+msgid "Currency"
+msgstr "Արժույթներ"
+
+#: arca-payment-gateway.php:486 includes/apg_config.php:168
+msgid "Configurations"
+msgstr "Կարգավորումներ"
+
+#: buttons/button-default.php:7
+msgid "Buy now"
+msgstr "Գնել հիմա"
+
+#: forms/form-default.php:29
+msgid "Price:"
+msgstr "Գին՝"
+
+#: forms/form-default.php:49
+msgid "Pay"
+msgstr "Վճարել"
+
+#: forms/invoice.php:19 forms/invoice.php:47
+msgid "Your invoice"
+msgstr "Ձեր անդորագիրը"
+
+#: forms/invoice.php:21 forms/invoice.php:48
+msgid "Invoice number:"
+msgstr "Անդորագրի համարը՝"
+
+#: forms/invoice.php:22 forms/invoice.php:49
+msgid "Date of payment:"
+msgstr "Վճարման ամսաթիվ՝"
+
+#: forms/invoice.php:23 forms/invoice.php:50
+msgid "Sum"
+msgstr "Գումար"
+
+#: forms/invoice.php:24 forms/invoice.php:51
+msgid "Payer:"
+msgstr "Վճարող՝"
+
+#: forms/invoice.php:25
+msgid "email"
+msgstr "Էլ. Փոստ՝"
+
+#: forms/invoice.php:26 forms/invoice.php:62 includes/apg_price_list.php:99
+#: includes/apg_price_list.php:139
+msgid "Product name"
+msgstr "Ապրանքի անվանումը"
+
+#: forms/invoice.php:27 forms/invoice.php:63
+msgid "Description:"
+msgstr "Նկարագրություն՝"
+
+#: forms/invoice.php:30 forms/invoice.php:65
+msgid "Thanks for your payment, our specialist will contact you."
+msgstr "Շնորհակալություն վճարման համար, մեր մասնագետը կկապվի ձեզ հետ:"
+
+#: forms/invoice.php:44
+msgid "Invoice"
+msgstr "Անդորագիր"
+
+#: forms/message.php:6
+msgid "An error has occurred"
+msgstr "Տեղի ունեցավ սխալ։"
+
+#: forms/message.php:9
+msgid "Unfortunately your payment has failed"
+msgstr "Ցավոք, ձեր վճարումը ձախողվեց։"
+
+#: forms/message.php:15
+msgid "Payment has failed"
+msgstr "Վճարումը ձախողվեց"
+
+#: includes/apg_checkout_form.php:33 includes/apg_checkout_form.php:41
+#: includes/apg_config.php:127 includes/apg_config.php:151
+#: includes/apg_currency.php:26 includes/apg_error_logs.php:11
+#: includes/apg_orders.php:11 includes/apg_price_list.php:11
+#: includes/apg_price_list.php:51 includes/apg_price_list.php:74
+msgid "Done!"
+msgstr "Կատարված!"
+
+#: includes/apg_checkout_form.php:69
+msgid "Input name"
+msgstr "Դաշտ"
+
+#: includes/apg_checkout_form.php:70
+msgid "Type"
+msgstr "Տեսակ"
+
+#: includes/apg_checkout_form.php:71
+msgid "Enabled"
+msgstr "Ակտիվ"
+
+#: includes/apg_checkout_form.php:72
+msgid "Required"
+msgstr "Պարտադիր"
+
+#: includes/apg_checkout_form.php:73 includes/apg_error_logs.php:30
+#: includes/apg_orders.php:47 includes/apg_price_list.php:110
+#: includes/apg_price_list.php:150
+msgid "Actions"
+msgstr "Գործողություններ"
+
+#: includes/apg_checkout_form.php:85 includes/apg_checkout_form.php:128
+#: includes/apg_config.php:191 includes/apg_config.php:261
+#: includes/apg_currency.php:72 includes/apg_price_list.php:172
+msgid "Save"
+msgstr "Պահպանել"
+
+#: includes/apg_checkout_form.php:94
+msgid "Checkuot page"
+msgstr "Պատվերի էջ"
+
+#: includes/apg_checkout_form.php:99
+msgid "Select to change"
+msgstr "Ընտրեք փոխելու համար"
+
+#: includes/apg_checkout_form.php:133 includes/apg_price_list.php:180
+msgid "Shortcode"
+msgstr "Շորթկոդ"
+
+#: includes/apg_checkout_form.php:135 includes/apg_price_list_shortcodes.php:65
+#: includes/apg_price_list_shortcodes.php:75
+msgid "Copy"
+msgstr "Պատճենել"
+
+#: includes/apg_config.php:16
+msgid "Incorrect order registration URL"
+msgstr "Պատվերի գրանցման URL-ը սխալ է"
+
+#: includes/apg_config.php:23
+msgid "Incorrect ArCa admin URL"
+msgstr "ArCa կառավարման վահանակի հասցեն սխալ է"
+
+#: includes/apg_config.php:30
+msgid "Incorrect API username"
+msgstr "Սխալ API օգտագործողի անուն"
+
+#: includes/apg_config.php:37
+msgid "Incorrect API password"
+msgstr "Սխալ API գաղտնաբառ"
+
+#: includes/apg_config.php:44
+msgid "incorrect default_language"
+msgstr "Սխալ լռելյայն լեզու"
+
+#: includes/apg_config.php:51
+msgid "incorrect default_currency"
+msgstr "Սխալ լռելյայն արժույթ"
+
+#: includes/apg_config.php:72
+msgid "Incorrect extended order status URL"
+msgstr "Ընդլայնված պատվերի կարգավիճակի URL- ն սխալ է"
+
+#: includes/apg_config.php:79 includes/apg_config.php:137
+msgid "incorrect rest_serverID"
+msgstr "Սխալ rest_serverID"
+
+#: includes/apg_config.php:86
+msgid "Incorrect email address"
+msgstr "Էլ.փոստի հասցեն սխալ է"
+
+#: includes/apg_config.php:178
+msgid "Working mode"
+msgstr "Աշխատանքային ռեժիմ"
+
+#: includes/apg_config.php:196
+msgid "Server configs"
+msgstr "Սերվերի կարգավորումներ"
+
+#: includes/apg_config.php:204
+msgid "API username:"
+msgstr "API Օգտանուն՝"
+
+#: includes/apg_config.php:207
+msgid "API password:"
+msgstr "API Գաղտնաբառ՝"
+
+#: includes/apg_config.php:212
+msgid "Default language:"
+msgstr "Լռելյայն լեզու՝"
+
+#: includes/apg_config.php:224
+msgid "Default currency:"
+msgstr "Լռելյայն արժույթ՝"
+
+#: includes/apg_config.php:236
+msgid "Orders number prefix:"
+msgstr "Պատվերների համարների նախածանց։"
+
+#: includes/apg_config.php:239
+msgid "Order number starting from"
+msgstr "Պատվերի համարը սկսվում է"
+
+#: includes/apg_config.php:241
+msgid "Orders will increase starting from the specified number, the type must be integer (for example, 100)."
+msgstr "Պատվերները կավելանան սկսած նշված թվից, տեսակը պետք է լինի ամբողջ թիվ (օրինակ ՝ 100):"
+
+#: includes/apg_config.php:243
+msgid "API connection settings"
+msgstr "API միացման կարգավորումներ"
+
+#: includes/apg_config.php:245
+msgid "ArCa admin URL:"
+msgstr "ArCa Կառավարման վահանակի URL՝"
+
+#: includes/apg_config.php:248
+msgid "Order registration URL:"
+msgstr "Պատվերի գրանցման URL՝"
+
+#: includes/apg_config.php:251
+msgid "Getting the extended order status URL:"
+msgstr "Պատվերի կարգավիճակի ստացման URL՝"
+
+#: includes/apg_config.php:255
+msgid "Email from:"
+msgstr "Ուղարկող Էլ. հասցե"
+
+#: includes/apg_config.php:257
+msgid "Specify the email address from which the payer will receive the invoice, admin email is default."
+msgstr "Նշեք էլ. Փոստի հասցեն, որից վճարողը կստանա հաշիվ ապրանքագիր, ադմինիստրատորի էլ. Փոստը լռելյայն է:"
+
+#: includes/apg_currency.php:51
+msgid "Currency code"
+msgstr "Արժույթի կոդը"
+
+#: includes/apg_currency.php:52
+msgid "Currency abbr"
+msgstr "Արժույթը կարճ"
+
+#: includes/apg_currency.php:53
+msgid "Currency name"
+msgstr "Արժույթը"
+
+#: includes/apg_currency.php:54
+msgid "Active"
+msgstr "Ակտիվ"
+
+#: includes/apg_currency.php:74
+msgid "Default"
+msgstr "Լռելյայն"
+
+#: includes/apg_dashboard.php:77
+msgid "Today:"
+msgstr "Այսօր ՝"
+
+#: includes/apg_dashboard.php:77 includes/apg_dashboard.php:79
+#: includes/apg_dashboard.php:81 includes/apg_dashboard.php:83
+#: includes/apg_dashboard.php:85
+msgid "Orders"
+msgstr "Պատվերներ"
+
+#: includes/apg_dashboard.php:77 includes/apg_dashboard.php:79
+#: includes/apg_dashboard.php:81 includes/apg_dashboard.php:83
+#: includes/apg_dashboard.php:85
+msgid "Count"
+msgstr "Քանակ"
+
+#: includes/apg_dashboard.php:79
+msgid "This week:"
+msgstr "Այս շաբաթ`"
+
+#: includes/apg_dashboard.php:81
+msgid "Last week:"
+msgstr "Անցած շաբաթ`"
+
+#: includes/apg_dashboard.php:83
+msgid "Last month:"
+msgstr "Անցած ամիս`"
+
+#: includes/apg_dashboard.php:85
+msgid "All time:"
+msgstr "Ամբողջ ժամանակ`"
+
+#: includes/apg_error_logs.php:27 includes/apg_price_list.php:138
+msgid "ID"
+msgstr "ID"
+
+#: includes/apg_error_logs.php:28
+msgid "Date"
+msgstr "Ամսաթիվ"
+
+#: includes/apg_error_logs.php:29
+msgid "Error"
+msgstr "Սխալ"
+
+#: includes/apg_error_logs.php:43 includes/apg_orders.php:77
+#: includes/apg_price_list.php:181
+msgid "Delete"
+msgstr "Ջնջել"
+
+#: includes/apg_HowToUse.php:19
+msgid "How to use"
+msgstr "Ինչպես օգտագործել"
+
+#: includes/apg_HowToUse.php:45 includes/apg_price_list.php:106
+#: includes/apg_price_list.php:146
+msgid "Product price"
+msgstr "Ապրանքի գինը"
+
+#: includes/apg_HowToUse.php:48
+msgid "Create a product by adding \"Product Name\" and \"Price\" and click the \"Add\" button."
+msgstr "Ստեղծեք ապրանք ՝ ավելացնելով «Ապրանքի անվանումը», «Գինը» և սեղմեք «Ավելացնել» կոճակին:"
+
+#: includes/apg_HowToUse.php:52
+msgid "Product will appear in \"Price list\"."
+msgstr "Ապրանքը կհայտնվի «Գնացուցակում»:"
+
+#: includes/apg_HowToUse.php:56
+msgid "Click the shortcode button and in the pop-up window that opens, select the payment language (the language of the bank page) and select the payment currency."
+msgstr "Սեղմեք շորտկոդ կոճակը և բացվող պատուհանում ընտրեք վճարման լեզուն (բանկի էջի լեզուն) և ընտրեք վճարման արժույթը:"
+
+#: includes/apg_HowToUse.php:60
+msgid "Copy shortcode."
+msgstr "Պատճենել շորթկոդը"
+
+#: includes/apg_HowToUse.php:64
+msgid "The payment form will appear on the page / post where you placed the shortcode."
+msgstr "Վճարման ձևը կհայտնվի այն էջում, որտեղ դուք տեղադրել եք շորթկոդը:"
+
+#: includes/apg_HowToUse.php:68
+msgid "View the page and your payment form will be there."
+msgstr "Դիտեք էջը, և ձեր վճարման ձևը կլինի այնտեղ:"
+
+#: includes/apg_HowToUse.php:75
+msgid "Set Currencies"
+msgstr "Սահմանեք արժույթները"
+
+#: includes/apg_HowToUse.php:78
+msgid "Set or unset the currencies which will be shown in \"Price list\" page and shortcode popup."
+msgstr "Ընտրեք կամ պասիվացրեք արժույթները, որոնք պետք է ցուցադրվեն «Գնացուցակ» էջում և շորթկոդ պատուհանում:"
+
+#: includes/apg_HowToUse.php:82
+msgid "Available currencies in \"Price list\" page"
+msgstr "Հասանելի արժույթներ «Գնացուցակ» էջում"
+
+#: includes/apg_HowToUse.php:86
+msgid "Available currencies in shortcode popup"
+msgstr "Հասանելի արժույթներ շորթկոդի պատուհանում"
+
+#: includes/apg_HowToUse.php:93
+msgid "Checkout Form"
+msgstr "Պատվերի ձևակերպման ֆորմա"
+
+#: includes/apg_HowToUse.php:96
+msgid "Set or unset checkout form fields which will be visible for payment."
+msgstr "Սահմանեք կամ անջատեք պատվերի ձևակերպման ֆորմայի դաշտերը, որոնք տեսանելի կլինեն վճարման համար:"
+
+#: includes/apg_orders.php:18
+msgid "Close"
+msgstr "Փակել"
+
+#: includes/apg_orders.php:24
+msgid "ArCa admin panel"
+msgstr "ArCa Կառավարման վահանակ"
+
+#: includes/apg_orders.php:36
+msgid "Order number"
+msgstr "Պատվերի համար"
+
+#: includes/apg_orders.php:37
+msgid "Order id"
+msgstr "Պատվերի ID"
+
+#: includes/apg_orders.php:38
+msgid "Product id"
+msgstr "Ապրանքի ID"
+
+#: includes/apg_orders.php:39
+msgid "Amount"
+msgstr "Գումար"
+
+#: includes/apg_orders.php:41
+msgid "Error code"
+msgstr "Սխալի Ծածկագիր"
+
+#: includes/apg_orders.php:42
+msgid "Payment state"
+msgstr "Վճարման կարկավիճակ"
+
+#: includes/apg_orders.php:43
+msgid "Order date"
+msgstr "Վճարման ամսաթիվ"
+
+#: includes/apg_orders.php:44
+msgid "Email sent"
+msgstr "Նամակն ուղարկվել է"
+
+#: includes/apg_orders.php:45
+msgid "Order status"
+msgstr "Պատվերի կարգավիճակ"
+
+#: includes/apg_orders.php:46
+msgid "Order details"
+msgstr "Պատվերի տվյալներ"
+
+#: includes/apg_price_list.php:20
+msgid "incorrect productName"
+msgstr "Սխալ «Ապրանքային անուն»"
+
+#: includes/apg_price_list.php:34
+msgid "incorrect productPrice"
+msgstr "Սխալ «Գին»"
+
+#: includes/apg_price_list.php:53
+msgid "sql Error:"
+msgstr "Տվյալների բազայի սխալ"
+
+#: includes/apg_price_list.php:94
+msgid "Add new product"
+msgstr "Ավելացրեք նոր ապրանք"
+
+#: includes/apg_price_list.php:100 includes/apg_price_list.php:140
+msgid "Product description"
+msgstr "Ապրանքի նկարագրությունը"
+
+#: includes/apg_price_list.php:126
+msgid "Add"
+msgstr "Ավելացնել"
+
+#: includes/apg_price_list_shortcodes.php:28
+msgid "Generate your shortcode"
+msgstr "Ստեղծեք ձեր շորթկոդը"
+
+#: includes/apg_price_list_shortcodes.php:32
+msgid "Choose payment language:"
+msgstr "Ընտրեք վճարման լեզուն."
+
+#: includes/apg_price_list_shortcodes.php:45
+msgid "Choose payment currency:"
+msgstr "Ընտրեք վճարման արժույթը։"
+
+#: includes/apg_price_list_shortcodes.php:63
+msgid "Checkout form shortcode"
+msgstr "Պատվերի ձևակերպման ֆորմայի շորթկոդ"
+
+#: includes/apg_price_list_shortcodes.php:73
+msgid "Buy it button shortcode"
+msgstr "Գնեք հիմա կոճակի շորթկոդ"
+
+msgid "Full name:"
+msgstr "Լրիվ անունը"
+
+msgid "Phone number:"
+msgstr "Հեռախոսահամար՝"
+
+msgid "Email:"
+msgstr "Էլ. Փոստ՝"
+
+msgid "Country:"
+msgstr "Երկիր՝"
+
+msgid "City:"
+msgstr "Քաղաք՝"
+
+msgid "Address:"
+msgstr "Հասցե՝"
+
+msgid "Zip Code:"
+msgstr "Փոստային ինդեքս՝"
+
+msgid "Comments:"
+msgstr "Մեկնաբանություն՝"
+
+msgid "Upgrade to PRO"
+msgstr "Անցնել PRO տարբերակին"
+
+msgid "Switch"
+msgstr "Փոխել"
+
+msgid "Bank:"
+msgstr "Բանկ`"
+
+msgid "Client ID:"
+msgstr "Հաճախորդի ID"
+
+msgid "Incorrect ClientID"
+msgstr "Սխալ հաճախորդID"
+
+msgid "Start of the OrderID range in the test mode:"
+msgstr "Տեստային միջավայրում OrderID միջակայքի սկիզբ՝"
+
+msgid "End of the OrderID range in the test mode:"
+msgstr "Տեստային միջավայրում OrderID միջակայքի վերջ՝"
+
+msgid "Incorrect description"
+msgstr "Սխալ նկարագրություն"
+
+msgid "Online payment"
+msgstr "Առցանց վճարում"
+
+msgid "WC order"
+msgstr "WC պատվեր"
+
+msgid "Support"
+msgstr "Օգնություն"
+
+msgid "Create a support ticket"
+msgstr "Ստեղծեք աջակցության տոմս"
+
+msgid "Call: +374 10 561106"
+msgstr "Զանգահարեք` +374 10 561106"
+
+msgid "Test min OrderId:"
+msgstr "Տեստային միջավայրում Order ID միջակայքի սկիզբ՝"
+
+msgid "Test max OrderId:"
+msgstr "Տեստային միջավայրում Order ID միջակայքի վերջ՝"
+
+msgid "Buy"
+msgstr "Գնել"
+
+msgid "incorrect start digit orders"
+msgstr "Սխալ պատվերների համարների մեկնարկային թիվ"
+
+msgid "Set"
+msgstr "Նշանակել"
+
+msgid "Payment form"
+msgstr "Վճարման ձև"
+
+msgid "License:"
+msgstr "Լիցենզիա"
+
+msgid "Something went wrong"
+msgstr "Ինչ որ բան այնպես չգնաց"
+
+msgid "Activation key"
+msgstr "Ակտիվացման բանալի"
+
+msgid "Activate"
+msgstr "Ակտիվացնել"
+
+msgid "License key is active"
+msgstr "Լիցենզիայի բանալին ակտիվ է"
+
+msgid "Activation Key is required"
+msgstr "Պահանջվում է ակտիվացման բանալի"
+
+msgid "Something went wrong, please try again."
+msgstr "Սխալ առաջացավ, խնդրում ենք նորից փորձեք"
+
+msgid "vPOS Account"
+msgstr "vPOS Հաշիվ"
+
+msgid "API Test Port:"
+msgstr "API տեստային պորտ"
+
+msgid "Incorrect API Test Port:"
+msgstr "Սխալ API տեստային պորտ"
+
+msgid "ArCa Payment Gateway Deactivation"
+msgstr ""
+
+msgid "If you have a moment, please let us know why you are deactivating this plugin. All submissions are anonymous and we only use this feedback to improve this plugin."
+msgstr ""
+
+msgid "I'm only deactivating temporarily"
+msgstr ""
+
+msgid "I no longer need the plugin"
+msgstr ""
+
+msgid "I only needed the plugin for a short period"
+msgstr ""
+
+msgid "The plugin broke my site"
+msgstr ""
+
+msgid "We're sorry to hear that, check our support. Can you describe the issue?"
+msgstr ""
+
+msgid "The plugin suddenly stopped working"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Please describe why you're deactivating"
+msgstr ""
+
+msgid "Please select at least one option."
+msgstr ""
+
+msgid "Skip and Deactivate"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Submit and Deactivate"
+msgstr ""
+
+msgid "* I have read and agree to the website terms and conditions"
+msgstr "* Ես կարդացել և համաձայն եմ կայքի դրույթներին և պայմաններին"
+
+msgid "Checkout"
+msgstr "Պատվերի ձևակերպում"
+
+msgid "Credit Card"
+msgstr "Կրեդիտ քարտ"
+
+msgid "Idram"
+msgstr "Idram"
+
+msgid "Gateway status"
+msgstr "Վճարման համակարգի կարգավիճակ"
+
+msgid "Plugin version:"
+msgstr "Plugin-ի տարբերակ՝"
+
+msgid "Active currencies:"
+msgstr "Ակտիվ արժույթներ՝"
+
+msgid "Working mode:"
+msgstr "Աշխատանքային ռեժիմ՝"
+
+msgid "Idram status:"
+msgstr "Idram կարգավիճակ՝"
+
+msgid "Idram test mode:"
+msgstr "Idram թեստային ռեժիմ՝"
+
+msgid "Roket Line:"
+msgstr ""
+
+msgid "Finance report"
+msgstr "Ֆինանսական հաշվետվություն"
+
+msgid "Idram Settings"
+msgstr "Idram Կարգավորումներ"
+
+msgid "Idram Account"
+msgstr "Idram Հաշիվ"
+
+msgid "Enable Idram"
+msgstr "Միացնել Idram-ը"
+
+msgid "Idram ID:"
+msgstr "Idram Օգտանուն՝"
+
+msgid "Idram Key:"
+msgstr "Idram Գաղտնաբառ՝"
+
+msgid "Idram Test Account"
+msgstr "Idram Թեստային հաշիվ՝"
+
+msgid "Enable test mode"
+msgstr "Միացնել թեստային տարբերակը"
+
+msgid "Idram Test ID:"
+msgstr "Idram Թեստային Օգտանուն՝"
+
+msgid "Idram Test Key:"
+msgstr "Idram Թեստային գաղտնաբառ՝"
+
+msgid "Idram Payment System provide it"
+msgstr "Տրամադրում է Idram-ը"
+
+msgid "Enable Roket Line"
+msgstr "Միացնել Roket Line-ը"
+
+msgid "Idram Callback URLs"
+msgstr "Idram Callback URL-ներ"
+
+msgid "vPOS Settings"
+msgstr "vPOS Կարգավորումներ"
+
+msgid "How To Use"
+msgstr "Ինչպես օգտվել"
+
+msgid "Delete All"
+msgstr "Ջնջել բոլորը"
+
+msgid "Privacy Policy Page"
+msgstr "Գաղտնիության քաղաքականության էջ"
+
+msgid "Your order"
+msgstr "Ձեր պատվերը"
+
+msgid "Billing details"
+msgstr "Վճարման մանրամասները"
+
+msgid "days left:"
+msgstr "Մնացել է օր՝"
+
+msgid "Real Orders"
+msgstr "Իրական պատվերներ"
+
+msgid "Test Orders"
+msgstr "Փորձարկման պատվերներ"
+
+msgid "WooCommerce order status:"
+msgstr "WooCommerce պատվերի կարգավիճակ`"

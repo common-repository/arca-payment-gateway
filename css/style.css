@@ -1,0 +1,39 @@
+/* all containers */
+.arca-pg {   }
+
+/* containers */
+.arca-pg-pay-button {  }
+#arca-pg-checkout-form {  }
+#arca-pg-order-invoice {   }
+#arca-pg-message {  }
+
+.arca-pg input,
+.arca-pg select { 
+	display:block;
+	margin-bottom:15px;
+}
+
+#apg-payment-system-switcher { margin:25px 0;  }
+#apg-payment-system-switcher div { line-height: 50px; height: 50px; display: flex; background: #eee; padding: 0 10px; margin-bottom: 2px; border-radius: 3px; }
+#apg-payment-system-switcher input { line-height: inherit; height: inherit; margin-right:10px; }
+#apg-payment-system-switcher label { height: inherit; width: 100%; display: flex; align-items: center; flex-direction: row; color:#6b6b6b; font-weight:normal; }
+#apg-payment-system-switcher label span { min-width:150px }
+#apg-payment-system-switcher img { height:21px; }
+#apg-terms-container { margin-bottom:25px; display:flex; line-height:25px; height:25px  }
+#apg-terms-container input { line-height: inherit; height: inherit; margin-right:15px }
+#apg-terms-container label { color:#6b6b6b }
+
+#arca-pg-checkout-form h2 { margin-bottom:20px; }
+#arca-pg-checkout-form h3 { margin-bottom:20px; }
+
+#arca-pg-order_review { margin-bottom:20px; }
+
+.idram-test-mode-lable { padding-left:20px; color:red; }
+
+#wc_apg_gatewey_card_icons { width:150px }
+#wc_apg_gatewey_idram_icons { width:180px }
+
+
+.arca-pg-custom-amount-pay-button form { display: flex; column-gap: 5px; align-items: center; width:fit-content; height: 45px; }
+.arca-pg-custom-amount-pay-button form input { margin-bottom:0; text-align: center; line-height:normal; margin-top:0; margin-bottom:0; height:inherit; }
+.arca-pg-custom-amount-pay-button form select { border:none; margin-bottom:0; height:inherit; }
